@@ -1,0 +1,41 @@
+{
+    "LoginMail": "amarkoul@yahoo.com",
+    "LoginPassword": "drakul80",
+    "SignupMail": "vmchemTestMail@vimachem.com",
+    "SignupPassword": "vmchemTestPwd",
+    "SignupFirstName": "VimachemFirstName",
+    "SignupLastName": "VimachemLastName",
+    "InvalidEmail": "testeremail",
+    "FakeEmail": "testemail@vimachem.gr",
+    "FakePassword": "testpassword",
+
+    "Contact1FirstName": "Markoulidis",
+    "Contact1LastName": "Tasos",
+
+    "Contact2FirstName": "Anastasios",
+    "Contact2LastName": "Markoulidis",
+    "Contact2DateOfBirth": "1980-08-03",
+    "Contact2Email": "amarkoul@yahoo.com",
+    "Contact2Phone": "6971868592",
+    "Contact2Address1": "Perikleous 37",
+    "Contact2Address2": "Sofokli Venizelou 37",
+    "Contact2City": "Kavala",
+    "Contact2StateProvince": "Eastern Macedonia",
+    "Contact2PostalCode": "65201",
+    "Contact2Country": "Greece",
+
+    "InvalidDate1": "1980-08-03",
+    "InvalidDate2": "1980-03-08",
+    "InvalidDate3": "08-03-1980",
+    "InvalidDate4": "08/03/1980",
+    "InvalidDate5": "1980/03/08",
+
+    "InvalidDate6": "1980-13-03",
+    "InvalidDate7": "1980-01-32",
+    "InvalidDate8": "1980-04-31",
+    "InvalidDate9": "1980-02-30",
+    "InvalidDate10": "1981-02-29",
+
+    "InvalidDate11": "1980a-03b-08c",
+    "InvalidDate12": "1980-03"
+  }
