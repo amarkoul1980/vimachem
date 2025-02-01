@@ -11,8 +11,8 @@ describe('thinking-tester-signup-invalid-date', () => {
 
       // cy.get('[id="email"]').type(fx.LoginMail)
       // cy.get('[id="password"]').type(fx.LoginPassword)
-      cy.get('[id="email"]').type(fx.SignupFirstName)
-      cy.get('[id="password"]').type(fx.SignupLastName)
+      cy.get('[id="email"]').type(fx.SignupMail)
+      cy.get('[id="password"]').type(fx.SignupPassword)
       cy.get('[id="submit"]').click()
       cy.wait(1000) //Give time to refresh after a click
       cy.get('[id="add-contact"]').click()

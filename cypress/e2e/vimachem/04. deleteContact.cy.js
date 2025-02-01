@@ -9,8 +9,8 @@ describe('thinking-tester-delete-contact', () => {
 
     it('Delete an existing contact', () => {
       //Login
-      cy.get('[id="email"]').type(fx.SignupFirstName)
-      cy.get('[id="password"]').type(fx.SignupLastName)
+      cy.get('[id="email"]').type(fx.SignupMail)
+      cy.get('[id="password"]').type(fx.SignupPassword)
       //cy.get('[id="email"]').type(fx.LoginMail)
       //cy.get('[id="password"]').type(fx.LoginPassword)
       cy.get('[id="submit"]').click()
@@ -34,10 +34,8 @@ describe('thinking-tester-delete-contact', () => {
     
           //Check that, in 'Contact List' page, contact has been displayed properly
           cy.ExpectElementContainsInnerText('[class="main-content"]','Contact Details')
-          cy.ExpectElementHasInnerText('[id="firstName"]',fx.SignupFirstName)
-          cy.ExpectElementHasInnerText('[id="lastName"]',fx.SignupLastName)
-          //cy.ExpectElementHasInnerText('[id="firstName"]',fx.Contact2FirstName)
-          //cy.ExpectElementHasInnerText('[id="lastName"]',fx.Contact2LastName)
+          cy.ExpectElementHasInnerText('[id="firstName"]',fx.Contact2FirstName)
+          cy.ExpectElementHasInnerText('[id="lastName"]',fx.Contact2LastName)
           
           cy.get('[id="delete"]').click() //Click on the first row, in order to delete it
 

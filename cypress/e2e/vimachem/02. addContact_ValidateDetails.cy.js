@@ -42,8 +42,8 @@ describe('thinking-tester-signup-add-contact', () => {
 
       //cy.get('[id="email"]').type(fx.LoginMail)
       //cy.get('[id="password"]').type(fx.LoginPassword)
-      cy.get('[id="email"]').type(fx.SignupFirstName) // The data of the previously signed up user
-      cy.get('[id="password"]').type(fx.SignupLastName) // The data of the previously signed up user
+      cy.get('[id="email"]').type(fx.SignupMail) // The data of the previously signed up user
+      cy.get('[id="password"]').type(fx.SignupPassword) // The data of the previously signed up user
       cy.get('[id="submit"]').click()
       cy.wait(1000) //Give time to refresh after a click
       cy.get('[id="add-contact"]').click()
